@@ -17,12 +17,15 @@ U"3" : U"3";
 U"4" : U"4";
 U"5" : U"5";
 U"6" : U"6";
+U"7" : U"7";
 U"8" : U"8";
 U"9" : U"9";
+U"0" : U"0";
 U"MINUS" : U"-";
-U"HASH" : U"\";
-U"BACKSPACE" : U"`";
-U"BACKTICK" : U"PRINTSCREEN";
+U"EQUAL" : U"=";
+U"BACKTICK" : U"\";
+U"BACKSLASH" : U"`";
+U"PRINTSCREEN" : U"PRINTSCREEN";
 U"TAB" : U"TAB";
 U"Q" : U"Q";
 U"W" : U"W";
@@ -36,7 +39,7 @@ U"O" : U"O";
 U"P" : U"P";
 U"LBRACE" : U"[";
 U"RBRACE" : U"]";
-U"BACKSLASH" : U"BACKSPACE";
+U"BACKSPACE" : U"BACKSPACE";
 U"DELETE" : U"DELETE";
 U"CAPSLOCK" : U"LCTRL";
 U"A" : U"A";
@@ -56,6 +59,7 @@ U"LSHIFT" : U"LSHIFT";
 U"Z" : U"Z";
 U"X" : U"X";
 U"C" : U"C";
+U"V" : U"V";
 U"B" : U"B";
 U"N" : U"N";
 U"M" : U"M";
@@ -65,17 +69,19 @@ U"SLASH" : U"/";
 U"RSHIFT" : U"RSHIFT";
 U"UP" : U"UP";
 U"PAGEDOWN" : U"PAGEDOWN";
-U"CTRL" : U"LCTRL";
-U"FUNCTION1" : U"LGUI";
+U"LCTRL" : U"LCTRL";
+U"LGUI" : U"LGUI";
 U"LALT" : U"LALT";
 U"SPACE" : U"SPACE";
 U"RALT" : U"RALT";
-U"GUI" : U"FUN1";
+U"FUNCTION1" : U"FUN1";
 U"LEFT" : U"LEFT";
 U"DOWN" : U"DOWN";
 U"RIGHT" : U"RIGHT";
 
 
 
+A[all_on] <= start, pfunc:interp;
+A[all_on, 1] <= P[c:0%](255), P[c:100%](255);
 
 
