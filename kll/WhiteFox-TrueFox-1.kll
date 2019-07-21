@@ -1,0 +1,44 @@
+Name = "WhiteFox";
+Variant = "truefox";
+Layout = "TrueFox";
+Base = "TheTrueFoxBase";
+Version = "1.01";
+Author = "Calvin Cheung (2019)";
+KLL = "0.3c";
+Date = "2019-07-21";
+Generator = "KIICONF 0.2";
+
+U"ESC" : SYS"SLEEP";
+U"1" : U"F1";
+U"2" : U"F2";
+U"3" : U"F3";
+U"4" : U"F4";
+U"5" : U"F5";
+U"6" : U"F6";
+U"8" : U"F8";
+U"9" : U"F9";
+U"MINUS" : U"F11";
+U"BACKTICK" : U"HOME";
+U"TAB" : toggleKbdProtocol();
+U"W" : U"UP";
+U"Y" : CONS"CALCULATOR";
+U"I" : U"INSERT";
+U"BACKSLASH" : U"DELETE";
+U"DELETE" : U"END";
+U"A" : U"LEFT";
+U"S" : U"DOWN";
+U"D" : U"RIGHT";
+U"PAGEUP" : CONS"BRIGHTNESSINCREMENT";
+U"LSHIFT" : U"CAPSLOCK";
+U"X" : U"APP";
+U"N" : CONS"VOLUMEDOWN";
+U"M" : CONS"VOLUMEUP";
+U"COMMA" : CONS"MUTE";
+U"UP" : CONS"STOP";
+U"PAGEDOWN" : CONS"BRIGHTNESSDECREMENT";
+U"LEFT" : CONS"SCANPREVIOUSTRACK";
+U"DOWN" : CONS"PAUSEPLAY";
+U"RIGHT" : CONS"SCANNEXTTRACK";
+
+
+
