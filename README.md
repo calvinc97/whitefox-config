@@ -6,6 +6,25 @@ Feel free to [open an issue](https://github.com/calvinc97/whitefox-config/issues
 ![WhiteFox (TrueFox) Config](https://raw.githubusercontent.com/calvinc97/whitefox-config/master/assets/layout.png)
 
 
+## Changelog
+### 07-22-2019
+* Changed `CAPS LOCK` to `LCTRL`
+* Switched `\` and `~`
+* Added `fn1` + `ESC` = `SLEEP`
+* Added `fn1` + `TAB` =`6/N-KRO`
+* Added `fn1` + `LSHIFT` = `CAPSL LOCK`
+* Added `fn1` + `X` = `APP`
+* Added `fn1` + `Y` = Calculator
+* Added `fn1` + `I` = `INSERT`
+* Added `fn1` + `N` = Volume Down
+* Added `fn1` + `M` = Volume Up
+* Added `fn1` + `,` = Mute
+* Added `fn1` + `PRINT SCREEN` = `HOME`
+* Added `fn1` + `W``A``S``D` = Arrow Keys
+* Added `fn1` + Arrow Keys = Media Playback Controls
+* Added `fn1` + `PAGE UP`/`PAGE DOWN` = Screen Brightness Up/Down
+
+
 ## Usage
 Make sure your keyboard is in Flash Mode (Orange LED will turn on)
 1. Clone the repository `git clone https://github.com/clhcalvin/whitefox-config.git`
@@ -16,3 +35,4 @@ Make sure your keyboard is in Flash Mode (Orange LED will turn on)
 4. On the top right of the configurator home screen, click on the Quick Flash button
 5. Flash the keyboard with `kiibohd.dfu.bin`
 6. Orange LED will turn off, and your keyboard is ready to go!
+
